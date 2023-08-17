@@ -1,0 +1,56 @@
+body{
+    height: 80vh;
+    background-color: #f8fafc;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    width: 100%;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.center div {
+    display: flex;
+    justify-content: center;
+}
+
+.center label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    gap: 1rem;
+    color: #f8fafc;
+}
+
+#nao{
+    z-index: 99999;
+    position: absolute;
+    margin-left: 130px;
+    background-color: rgb(152, 34, 34);
+}
+
+#sim{
+    
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-right: 130px;
+    background-color: rgb(46, 118, 17);
+}
+
+#sim:hover {
+    scale: 105%;
+    background-color: rgb(59, 161, 19);
+}
