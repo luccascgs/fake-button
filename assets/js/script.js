@@ -24,3 +24,4 @@ const urlParams = new URLSearchParams(window.location.search);
 const texto = urlParams.get("texto");
 
 document.getElementsByTagName('h1')[0].innerText = texto ?? "Futzin hoje?";
+document.getElementsByTagName('title')[0].innerText = texto ?? "Futzin hoje?";
