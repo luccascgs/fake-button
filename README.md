@@ -1,6 +1,7 @@
 # FAKE BUTTON
 
 Página pra vc mandar para os seus amigos e ser feliz :D
+
 ![gif](https://github.com/luccascgs/fake-button/assets/121114516/8c6bc707-e54d-4979-9b19-1494e6781c75)
 
 ## Mudando o texto:
